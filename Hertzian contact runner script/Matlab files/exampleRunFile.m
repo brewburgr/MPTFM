@@ -72,7 +72,7 @@ sSize = [128 128 64];
 incORcum = 'incremental';
 
 % ---- Define directory with .mat input images, also used as output directory ----
-baseDir = '/home/bq_bkraus/Desktop/Matlab/Matlab';
+baseDir = '/path/to/Matlab files';
 
 % ---- Define the images, starting with 00 (reference) or 01 (deformed) ----
 file00 = dir(fullfile(baseDir, '00*.mat'));
