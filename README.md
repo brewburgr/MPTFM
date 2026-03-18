@@ -1,7 +1,7 @@
 # MP-TFM (Microparticle traction force microscopy)
 Volume and surface method workflow implementations based on the original publications showcasing the two approaches in microparticle traction force microscopy (MP-TFM).
 
-We provide a runner script for the Hertzian contact scenario together with the Matlab files and example data and results, as well as a JupyterLab notebook to run the surface method on our experimental data.
+We provide a runner script for an exemplary simulated Hertzian contact scenario (applying both the volume and surface methods), together with the Matlab files and example data and results. We also provide a JupyterLab notebook that applies the surface method to our experimental data.
 
 References:
 
@@ -38,4 +38,3 @@ Fiji (ImageJ):
 C. A. Schneider, W. S. Rasband and K. W. Eliceiri, Nature Methods, 2012, 9, 671-675.
 
 Fiji, https://fiji.sc/.
-Y. Wang, ShElastic: Case06, 2021, https://github.com/yfwang09/ShElastic/blob/fc64cce8ea9a955d98fc3184e821235dff931f3d/examples/Case06-Hydrogel_deformation_test_case_with_penalty.ipynb,
