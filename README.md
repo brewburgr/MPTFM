@@ -1,7 +1,7 @@
-# Microparticle-traction-force-microscopy
-Volume and surface method workflow implementations for an example profile (Hertzian contact) with sample data and necessary packages and functions, based on the original publications.
-The conda environment can be built fom the master.yml file.
-Experimental data for the DNA hydrogel microparticles analyzed in the manuscript is also included.
+# MP-TFM
+Volume and surface method workflow implementations based on the original publications showcasing the two approaches in microparticle traction force microscopy (MP-TFM).
+
+The conda environment for the runner script that employs both methods in an exemplary simulated Hertzian contact scenario can be built from the master.yml file. Experimental data for the DNA hydrogel microparticles analyzed in the manuscript is also included, as well as a notebook with an exemplary evaluation by the surface method.
 
 References:
 
@@ -9,21 +9,33 @@ Volume method:
 
 E. Mohagheghian, J. Luo, J. Chen, G. Chaudhary, J. Chen, J. Sun, R. H. Ewoldt and N. Wang, Nature Communications, 2018, 9, 1878.
 
-
 Surface method:
 
 D. Vorselen, Y. Wang, M. M. de Jesus, P. K. Shah, M. J. Footer, M. Huse, W. Cai and J. A. Theriot, Nature Communications, 2020, 11, 20.
 
-
-Matlab FIDVC algorithm:
+Matlab FIDVC algorithm (slightly adapted for our analyses, therefore we included it in the repo):
 
 E. Bar-Kochba, J. Toyjanova, E. Andrews, K.-S. Kim and C. Franck, Experimental Mechanics, 2015, 55, 261–274.
 
 F. Lab, FranckLab/FIDVC, 2015, https://github.com/FranckLab/FIDVC.
 
-
-ShElastic package:
+ShElastic package (functions for spherical harmonics, required for our scripts):
 
 Y. Wang, X. Zhang and W. Cai, Journal of the Mechanics and Physics of Solids, 2019, 126, 151–167.
 
+Y. Wang, ShElastic: Case06, 2021, https://github.com/yfwang09/ShElastic/blob/fc64cce8ea9a955d98fc3184e821235dff931f3d/examples/Case06-Hydrogel_deformation_test_case_with_penalty.ipynb.
+
+For analyses of experimental data, we used custom Python scripts for preprocessing in the volume method as explained in our manuscript. For experimental evaluations with the surface method, we used GeoV on DNA-HMP outlines generated in Fiji (ImageJ) to reconstruct deformed surfaces as .ply files as described in our manuscript.
+
+GeoV:
+
+Y. Dreher, J. Niessner, A. Fink and K. Göpfrich, Advanced Intelligent Systems, 2023, 5, 2300170.
+
+GeoV, Jakob Niessner, Yannik Dreher and Kerstin Göpfrich, 2022, https://github.com/jabrucohee/GeoV/edit/main/README.md.
+
+Fiji (ImageJ):
+
+C. A. Schneider, W. S. Rasband and K. W. Eliceiri, Nature Methods, 2012, 9, 671-675.
+
+Fiji, https://fiji.sc/.
 Y. Wang, ShElastic: Case06, 2021, https://github.com/yfwang09/ShElastic/blob/fc64cce8ea9a955d98fc3184e821235dff931f3d/examples/Case06-Hydrogel_deformation_test_case_with_penalty.ipynb,
