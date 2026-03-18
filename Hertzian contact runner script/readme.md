@@ -1,4 +1,4 @@
-To run the main script `Hertzian_example_runner.py` (volume and surface method for simulated Hertzian contact), you need to download the following files, keeping relative paths between the files intact:
+To run the main script `Hertzian_example_runner.py` (volume and surface methods for a simulated Hertzian contact), you need to download the following files, keeping relative paths between the files intact:
 
 - `Hertzian_example_runner.py`
 - `environment_master.yml`
