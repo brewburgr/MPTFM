@@ -24,7 +24,7 @@ A compatible C compiler is required for the MEX compilation of `mirt3D_mexinterp
 
 On **Windows**, a pre-compiled MEX binary (`mirt3D_mexinterp.mexw64`) is already included and no manual compilation is needed.
 
-On **Linux** and **Mac**, `mirt3D_mexinterp.m` will automatically compile `mirt3D_mexinterp.cpp` the first time the function is called, provided a supported C compiler is installed and configured (e.g. via `mex -setup`).
+On **Linux** and **Mac**, `mirt3D_mexinterp.m` will automatically compile `mirt3D_mexinterp.cpp` the first time the function is called, provided a supported C compiler is installed and configured (e.g., via `mex -setup`).
 
 ## Setting up the Supplemental MFiles
 
