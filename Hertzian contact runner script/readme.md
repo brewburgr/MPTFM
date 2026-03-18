@@ -38,6 +38,6 @@ ShElastic/examples/Data_Hertzian_contact
 
 This directory already contains results from a standardized run for both methods, including 3D traction plots, error evaluations, and profile visualizations.
 
-Both `u_profile.mat` and `mesh_profile.mat` files for volume method evaluations are also present. These can alternatively be obtained by analyzing the synthetic image pair (`00Referencepicture*.mat`, `01Deformedpicture*.mat`) with the Matlab FIDVC algorithm.
+Both the displacement field (`u_profile.mat`) and according mesh (`mesh_profile.mat`) files for volume method evaluations are also present. These can alternatively be obtained by analyzing the synthetic image pair (`00Referencepicture*.mat`, `01Deformedpicture*.mat`) with the Matlab FIDVC algorithm.
 
 If `u_profile.mat` and `mesh_profile.mat` are not detected, the volume method branch of the script will instead re-generate the synthetic image pair for analysis by the FIDVC. In that case, run the volume method branch again once the resulting `u_profile.mat` and `mesh_profile.mat` files are available.
