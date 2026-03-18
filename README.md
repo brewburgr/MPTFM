@@ -31,7 +31,7 @@ E. Bar-Kochba, J. Toyjanova, E. Andrews, K.-S. Kim and C. Franck, Experimental M
 
 F. Lab, FranckLab/FIDVC, 2015, https://github.com/FranckLab/FIDVC.
 
-**ShElastic package** (functions for spherical harmonics, required for our scripts):
+**ShElastic package** (Python functions for spherical harmonics, required in our scripts):
 
 Y. Wang, X. Zhang and W. Cai, Journal of the Mechanics and Physics of Solids, 2019, 126, 151–167.
 
