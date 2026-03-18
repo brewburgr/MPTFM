@@ -1,4 +1,4 @@
-# MP-TFM (Microparticle traction force microscopy)
+# Microparticle traction force microscopy
 Volume and surface method workflow implementations based on the original publications showcasing the two approaches in microparticle traction force microscopy (MP-TFM).
 
 This repository accompanies our manuscript:
