@@ -39,7 +39,7 @@ Y. Wang, ShElastic: Case06, 2021, https://github.com/yfwang09/ShElastic/blob/fc6
 
 ---
 
-For simulated profiles, we prescribed traction profiles and analytically computed displacement fields from them as described in our manuscript. These references might be useful to follow the implementations:
+For **simulated profiles**, we prescribed traction profiles and analytically computed displacement fields from them as described in our manuscript. These references might be useful to follow the implementations:
 
 A. Mietke, O. Otto, S. Girardo, P. Rosendahl, A. Taubenberger, S. Golfier, E. Ulbricht, S. Aland, J. Guck and E. Fischer-Friedrich, Biophysical Journal, 2015, 109, 2023–2036.
 
@@ -49,7 +49,7 @@ H. Hertz, Journal für die reine und angewandte Mathematik, 1882, 92, 156–171.
 
 ---
 
-For analyses of experimental data, we used custom Python scripts for preprocessing in the volume method to recover suitable nanoparticle image pairs as explained in our manuscript. For experimental evaluations with the surface method, we used GeoV on DNA-HMP outlines generated in Fiji (ImageJ) to reconstruct deformed surfaces as .ply files as described in our manuscript.
+For analyses of **experimental data**, we used custom Python scripts for preprocessing in the volume method to recover suitable nanoparticle image pairs as explained in our manuscript. For experimental evaluations with the surface method, we used GeoV on DNA-HMP outlines generated in Fiji (ImageJ) to reconstruct deformed surfaces as .ply files as described in our manuscript.
 
 **GeoV**:
 
