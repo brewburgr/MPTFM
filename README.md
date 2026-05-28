@@ -5,7 +5,7 @@ It accompanies our manuscript that describes and evaluates the approaches:
 
 **Volume and surface methods for microparticle traction force microscopy: a computational and experimental comparison**
 
-Simon Brauburger, Bastian K. Kraus, Tobias Walther, Tobias Abele, Kerstin Göpfrich, and Ulrich S. Schwarz
+Simon Brauburger, Bastian K. Kraus, Tobias Walther, Cornelis Mense, Tobias Abele, Kerstin Göpfrich, and Ulrich S. Schwarz
 
 ---
 
@@ -13,6 +13,7 @@ We provide a [directory containing a runner script](./Hertzian%20contact%20runne
 
 We also include a [directory with a JupyterLab notebook](./Jupyter%20notebook%20experimental%20+%20template) where the surface method is applied to our experimental data from DNA hydrogel microparticles (DNA-HMPs) that are compressed from the top.
 
+Further, we provide the JupyterLab notebook as well as displacement data and results for the comparison of linear elasticity and neo-Hookean elasticity using dolfinx/dolfinx:stable (from May 28, 2026).
 ---
 
 ## References
