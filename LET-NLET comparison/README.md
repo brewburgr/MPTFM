@@ -1,6 +1,6 @@
 # LET-NLET comparison environment
 
-The analysis in the notebook `SurfaceNLET.ipynb` was performed inside a Docker container. We used the provided displacement data with the pre-defined parameters in the notebook for the Hertzian contact and Gaussian indenter profiles (varying the `Profile` parameter), and provide exemplary results in the according directory.
+The analysis in the notebook `SurfaceNLET.ipynb` was performed inside a Docker container. We used the provided displacement data with the pre-defined parameters in the notebook for the Hertzian contact and Gaussian indenter profiles (varying the `Profile` parameter from `Hertzian` to `Gaussian`), and provide exemplary results in the according directory.
 
 - **Docker image:** `dolfinx/dolfinx:stable`
 - **Image date:** May 28, 2026
