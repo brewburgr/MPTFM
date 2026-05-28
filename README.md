@@ -13,7 +13,15 @@ We provide a [directory containing a runner script](./Hertzian%20contact%20runne
 
 We also include a [directory with a JupyterLab notebook](./Jupyter%20notebook%20experimental%20+%20template) where the surface method is applied to our experimental data from DNA hydrogel microparticles.
 
-We now also provide a [JupyterLab notebook for the nonlinear/linear elasticity (LET-NLET) comparison](./LET-NLET%20comparison/Jupyter%20notebook%20LET-NLET) where the approach and results for this analysis are shown with example data from the Hertzian contact and Gaussian indenter scenarios.
+We now also provide a [JupyterLab notebook for the nonlinear/linear elasticity (LET-NLET) comparison](./LET-NLET%20comparison/Jupyter%20notebook%20LET-NLET) where the approach and results for this analysis are shown with example data from the Hertzian contact and Gaussian indenter scenarios. This analysis was performed inside a Docker container for reproducibility:
+**Docker image:** `dolfinx/dolfinx:stable`  
+**Image date:** May 28, 2026
+To pull the same environment:
+```bash
+docker pull dolfinx/dolfinx:stable
+docker run -it --rm -p 8888:8888 dolfinx/dolfinx:stable
+```
+*(Pulled and used on May 28, 2026. For exact version, see image history or specify with an image digest if available.)*
 
 ---
 
