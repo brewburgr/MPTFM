@@ -13,7 +13,7 @@ We provide a [directory containing a runner script](./Hertzian%20contact%20runne
 
 We also include a [directory with a JupyterLab notebook](./Jupyter%20notebook%20experimental%20+%20template) where the surface method is applied to our experimental data from DNA hydrogel microparticles.
 
-We now also provide a [JupyterLab notebook for the nonlinear/linear elasticity (LET-NLET) comparison](./LET-NLET%20comparison/Jupyter%20notebook%20LET-NLET) where the approach and results for this analysis are shown.
+We now also provide a [JupyterLab notebook for the nonlinear/linear elasticity (LET-NLET) comparison](./LET-NLET%20comparison/Jupyter%20notebook%20LET-NLET) where the approach and results for this analysis are shown with example data from the Hertzian contact and Gaussian indenter scenarios.
 
 ---
 
