@@ -8,11 +8,13 @@ It accompanies our manuscript that describes and evaluates the approaches:
 Simon Brauburger, Bastian K. Kraus, Tobias Walther, Cornelis Mense, Tobias Abele, Kerstin Göpfrich, and Ulrich S. Schwarz
 
 ---
-We provide a [directory containing a runner script](./Hertzian%20contact%20runner%20script) for an exemplary simulated Hertzian contact scenario (applying both the volume and the surface method), together with example input and output data.
+
+We provide a [directory containing a runner script](./Hertzian%20contact%20runner%20script) for an exemplary simulated Hertzian contact scenario (applying both the volume and the surface method), together with the corresponding data.
 
 We also include a [directory with a JupyterLab notebook](./Jupyter%20notebook%20experimental%20+%20template) where the surface method is applied to our experimental data from DNA hydrogel microparticles.
 
-We now also provide a [JupyterLab notebook for the nonlinear/linear elasticity (LET-NLET) comparison](./LET-NLET%20comparison/Jupyter%20notebook%20LET-NLET) where the approach and results for this analysis are demonstrated. This notebook guides users through the traction reconstruction from experimental or simulated displacement data, comparing both the linear and nonlinear elasticity theory for microparticle TFM.
+We now also provide a [JupyterLab notebook for the nonlinear/linear elasticity (LET-NLET) comparison](./LET-NLET%20comparison/Jupyter%20notebook%20LET-NLET) where the approach and results for this analysis are shown.
+
 ---
 
 ## References
