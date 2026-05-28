@@ -1,6 +1,6 @@
 # LET-NLET comparison environment
 
-This analysis was performed inside a Docker container for reproducibility. We used the displacement data with the pre-defined parameters in the notebook for the Hertzian contact and Gaussian indenter profiles.
+This analysis was performed inside a Docker container for reproducibility. We used the displacement data with the pre-defined parameters in the notebook for the Hertzian contact and Gaussian indenter profiles (varying the 'Profile' parameter).
 
 - **Docker image:** `dolfinx/dolfinx:stable`
 - **Image date:** May 28, 2026
