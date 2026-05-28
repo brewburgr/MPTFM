@@ -8,12 +8,11 @@ It accompanies our manuscript that describes and evaluates the approaches:
 Simon Brauburger, Bastian K. Kraus, Tobias Walther, Cornelis Mense, Tobias Abele, Kerstin Göpfrich, and Ulrich S. Schwarz
 
 ---
+We provide a [directory containing a runner script](./Hertzian%20contact%20runner%20script) for an exemplary simulated Hertzian contact scenario (applying both the volume and the surface method), together with example input and output data.
 
-We provide a [directory containing a runner script](./Hertzian%20contact%20runner%20script) for an exemplary simulated Hertzian contact scenario (applying both the volume and the surface method), together with the [Matlab files for the FIDVC](./Hertzian%20contact%20runner%20script/Matlab%20files), and example data and results.
+We also include a [directory with a JupyterLab notebook](./Jupyter%20notebook%20experimental%20+%20template) where the surface method is applied to our experimental data from DNA hydrogel microparticles.
 
-We also include a [directory with a JupyterLab notebook](./Jupyter%20notebook%20experimental%20+%20template) where the surface method is applied to our experimental data from DNA hydrogel microparticles (DNA-HMPs) that are compressed from the top.
-
-Further, we provide the JupyterLab notebook as well as displacement data and results for the comparison of linear elasticity and neo-Hookean elasticity using dolfinx/dolfinx:stable (from May 28, 2026).
+We now also provide a [JupyterLab notebook for the nonlinear/linear elasticity (LET-NLET) comparison](./LET-NLET%20comparison/Jupyter%20notebook%20LET-NLET) where the approach and results for this analysis are demonstrated. This notebook guides users through the traction reconstruction from experimental or simulated displacement data, comparing both the linear and nonlinear elasticity theory for microparticle TFM.
 ---
 
 ## References
