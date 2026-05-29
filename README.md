@@ -39,6 +39,10 @@ Y. Wang, X. Zhang and W. Cai, Journal of the Mechanics and Physics of Solids, 20
 
 Y. Wang, ShElastic: Case06, 2021, https://github.com/yfwang09/ShElastic/blob/fc64cce8ea9a955d98fc3184e821235dff931f3d/examples/Case06-Hydrogel_deformation_test_case_with_penalty.ipynb.
 
+**Hyperelasticity details, implementation in FEniCSx**
+
+J. S. Dokken, Hyperelasticity — FEniCSx Tutorial, https://jsdokken.com/dolfinx-tutorial/chapter2/hyperelasticity.html, 2026, accessed: 2026-05-06.
+
 ---
 
 For **simulated profiles**, we prescribed traction profiles and analytically computed displacement fields from them as described in our manuscript. These references might be helpful to follow our implementation:
