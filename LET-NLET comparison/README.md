@@ -1,6 +1,6 @@
 # LET-NLET comparison environment
 
-The analysis in the notebook `SurfaceNLET.ipynb` was performed inside a Docker container. We used the provided displacement data with the pre-defined parameters in the notebook for the Hertzian contact and Gaussian indenter profiles (varying the `Profile` parameter from `Hertzian` to `Gaussian`), and provide exemplary results in the according directory. The results include integrated tractions, traction-indentation curves generated from them (using known strain/maximum indentation values), and ParaView files that can be used for visualization. 
+The analysis in the notebook `SurfaceNLET.ipynb` was performed inside a Docker container. We used the provided displacement data with the pre-defined parameters in the notebook for the Hertzian contact and Gaussian indenter profiles (varying the `Profile` parameter from `Hertzian` to `Gaussian`), and provide example results in the according directory. The results include integrated tractions, traction-indentation curves generated from them (using known strain/maximum indentation values), and ParaView files that can be used for visualization. 
 
 - **Docker image:** `dolfinx/dolfinx:stable`
 - **Image date:** May 28, 2026
