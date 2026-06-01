@@ -22,5 +22,5 @@ docker run -it --rm -p 8888:8888 dolfinx/dolfinx:stable
 
 1. Build a spherical mesh with Gmsh.
 2. Map the reconstructed surface displacement field onto the mesh as a Dirichlet boundary condition.
-3. Solve the interior displacement field with FEniCSx for both LET and NLET constitutive laws.
+3. Solve the interior displacement field with FEniCSx for both LET and NLET (neo-Hookean) constitutive laws.
 4. Integrate the resulting traction on the indenter surface and compare the integrated-traction-indentation curves.
