@@ -7,6 +7,8 @@ It accompanies our manuscript that describes and evaluates the approaches:
 
 Simon Brauburger, Bastian K. Kraus, Tobias Walther, Cornelis Mense, Tobias Abele, Kerstin Göpfrich, and Ulrich S. Schwarz
 
+DOI: https://doi.org/10.1039/D6SM00242K
+
 ---
 
 We provide a [directory containing a runner script](./Hertzian%20contact%20runner%20script) for an exemplary simulated Hertzian contact scenario (applying both the volume and the surface method), together with the corresponding data.
