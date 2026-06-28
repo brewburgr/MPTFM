@@ -7,6 +7,8 @@ It accompanies our manuscript that describes and evaluates the approaches:
 
 Simon Brauburger, Bastian K. Kraus, Tobias Walther, Cornelis Mense, Tobias Abele, Kerstin Göpfrich, and Ulrich S. Schwarz
 
+*Soft Matter*, 2026, Advance Article 
+
 DOI: https://doi.org/10.1039/D6SM00242K
 
 ---
